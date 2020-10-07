@@ -1,0 +1,83 @@
+body{
+  margin:0;
+  padding: 75px 0;
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+
+.grid-container{
+  padding: 0;
+  display: grid;
+  grid-template-columns: 75%;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero{
+  background-color: #FFF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+h1{
+  color: hsl(179, 62%, 43%);
+}
+
+.hero h2{
+  color: hsl(71, 73%, 54%);
+}
+
+.hero p{
+  color: hsl(218, 22%, 67%);
+  line-height: 1.6;
+}
+
+.subscription{
+  color: #fff;
+  background-color: hsl(179, 62%, 43%);
+}
+
+.pricing{
+  /* color: hsl(179, 47%, 51%); */
+}
+
+.price{
+  color: #fff;
+  font-size: 2rem;
+}
+
+button{
+  text-align: center;
+  margin: 0 10% 15px 10%;
+  width: 80%;
+  height: auto;
+  padding: 10px 0;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 0 2px 5px #888;
+  font-size: 16px;
+  color: #fff;
+  background-color: hsl(71, 73%, 54%);
+}
+
+.why-us{
+  color: #fff;
+  background-color: hsl(179, 47%, 51%);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
